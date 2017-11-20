@@ -1,7 +1,7 @@
 import React from 'react'
 import { CURRENCIES } from '../utils/currencies';
 
-const CurrencyConversionForm = ({init,currency,changeCurrency,changeFromCurrency,changeToCurrency}) => {
+const CurrencyConversionForm = ({currency,changeCurrency,changeFromCurrency,changeToCurrency}) => {
 
 
   const currencyOptions = CURRENCIES.map((currency, index) => {
